@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+html, body {
+    background-color: hsl(207, 26%, 17%);
+    /* height: 100%; */
+    /* overflow: hidden;     */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    height: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .sidebar{
+      height: 700px;
   }
-  to {
-    transform: rotate(360deg);
+  .selected{
+      color: white;
   }
-}
+  .colo{
+      color: #5A698F;
+     
+  }
